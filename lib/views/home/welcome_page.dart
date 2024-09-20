@@ -17,8 +17,8 @@ class _WelcomePageState extends State {
         title: const Text('ChasoulUIX'),
         backgroundColor: Colors.blueAccent,
       ),
-      drawer: SideMenu(), // Side Menu
-      body: TabMenu(), // Tab Menu
+      drawer: const SideMenu(), // Side Menu
+      body: const TabMenu(), // Tab Menu
     );
   }
 }
