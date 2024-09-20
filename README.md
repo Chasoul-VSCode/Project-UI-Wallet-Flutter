@@ -1,6 +1,6 @@
-
+<div style:"width: 20px;">
 ![Screenshot_1726848090](https://github.com/user-attachments/assets/500c3f61-0894-4cd3-9980-581538db46ce)
-
+</div>
 A new Flutter project.
 
 ## Getting Started
