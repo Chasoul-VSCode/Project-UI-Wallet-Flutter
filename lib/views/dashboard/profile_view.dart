@@ -8,7 +8,7 @@ class ProfileView extends StatefulWidget {
 }
 
 class _ProfileViewState extends State<ProfileView> {
-  final String userName = 'Chasoul.uix';
+  final String userName = 'Chasoul UIX';
   final String accountNumber = '1234 5678 9876'; // Contoh nomor rekening
   final double saldo = 1500000; // Contoh saldo
 
