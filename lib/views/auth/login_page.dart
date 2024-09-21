@@ -18,9 +18,8 @@ class LoginPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              
               const Text(
-                'Chasoul Store',
+                'Chash Wallet',
                 style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.bold,
@@ -28,8 +27,6 @@ class LoginPage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 20),
-
-              
               TextField(
                 controller: usernameController,
                 decoration: InputDecoration(
@@ -45,8 +42,6 @@ class LoginPage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 20),
-
-              
               TextField(
                 controller: passwordController,
                 decoration: InputDecoration(
@@ -62,8 +57,6 @@ class LoginPage extends StatelessWidget {
                 obscureText: true,
               ),
               const SizedBox(height: 30),
-
-              
               SizedBox(
                 width: double.infinity,
                 height: 50,
@@ -91,15 +84,12 @@ class LoginPage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 20),
-
-              
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const Text('Don’t have an account?'),
                   TextButton(
                     onPressed: () {
-                      
                       Navigator.pushNamed(context, '/register');
                     },
                     child: const Text(

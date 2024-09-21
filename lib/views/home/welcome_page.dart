@@ -14,7 +14,7 @@ class _WelcomePageState extends State {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ChasoulUIX'),
+        title: const Text('ChashWallet'),
         backgroundColor: Colors.blueAccent,
       ),
       drawer: const SideMenu(), // Side Menu
