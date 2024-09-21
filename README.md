@@ -4,6 +4,16 @@ My Project UI Wallet
 
 ## How to install?
 
+1 git clone https://github.com/Chasoul-VSCode/Project-UI-Store-Flutter.git
+
+2 cd to name repository
+
+3 flutter pub get
+
+4 flutter device
+
+5 flutter run
+
 
 ## Getting Started
 
