@@ -18,7 +18,6 @@ class RegisterPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              
               const Text(
                 'Register',
                 style: TextStyle(
@@ -28,8 +27,6 @@ class RegisterPage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 20),
-
-              
               TextField(
                 controller: usernameController,
                 decoration: InputDecoration(
@@ -45,14 +42,12 @@ class RegisterPage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 20),
-
-              
               TextField(
                 controller: usernameController,
                 decoration: InputDecoration(
                   labelText: 'Email',
-                  prefixIcon:
-                      const Icon(Icons.person, color: Colors.blueAccent),
+                  prefixIcon: const Icon(Icons.email_outlined,
+                      color: Colors.blueAccent),
                   filled: true,
                   fillColor: Colors.blue.shade50,
                   border: OutlineInputBorder(
@@ -62,8 +57,6 @@ class RegisterPage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 20),
-
-              
               TextField(
                 controller: passwordController,
                 decoration: InputDecoration(
@@ -79,8 +72,6 @@ class RegisterPage extends StatelessWidget {
                 obscureText: true,
               ),
               const SizedBox(height: 30),
-
-              
               SizedBox(
                 width: double.infinity,
                 height: 50,
@@ -108,19 +99,16 @@ class RegisterPage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 20),
-
-              
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Text('Don’t have an account?'),
+                  const Text('You have an account?'),
                   TextButton(
                     onPressed: () {
-                      
                       Navigator.pushNamed(context, '/login');
                     },
                     child: const Text(
-                      'Sign Up',
+                      'Sign In',
                       style: TextStyle(
                         color: Colors.blueAccent,
                         fontWeight: FontWeight.bold,
