@@ -18,9 +18,9 @@ class LoginPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Logo atau Judul
+              
               const Text(
-                'ChasoulUIX',
+                'Chasoul Store',
                 style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.bold,
@@ -29,12 +29,13 @@ class LoginPage extends StatelessWidget {
               ),
               const SizedBox(height: 20),
 
-              // Input Username
+              
               TextField(
                 controller: usernameController,
                 decoration: InputDecoration(
                   labelText: 'Username',
-                  prefixIcon: const Icon(Icons.person, color: Colors.blueAccent),
+                  prefixIcon:
+                      const Icon(Icons.person, color: Colors.blueAccent),
                   filled: true,
                   fillColor: Colors.blue.shade50,
                   border: OutlineInputBorder(
@@ -45,7 +46,7 @@ class LoginPage extends StatelessWidget {
               ),
               const SizedBox(height: 20),
 
-              // Input Password
+              
               TextField(
                 controller: passwordController,
                 decoration: InputDecoration(
@@ -62,7 +63,7 @@ class LoginPage extends StatelessWidget {
               ),
               const SizedBox(height: 30),
 
-              // Tombol Login
+              
               SizedBox(
                 width: double.infinity,
                 height: 50,
@@ -91,14 +92,15 @@ class LoginPage extends StatelessWidget {
               ),
               const SizedBox(height: 20),
 
-              // Teks untuk Lupa Password atau Daftar
+              
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const Text('Don’t have an account?'),
                   TextButton(
                     onPressed: () {
-                      // Navigasi ke halaman register
+                      
+                      Navigator.pushNamed(context, '/register');
                     },
                     child: const Text(
                       'Sign Up',
