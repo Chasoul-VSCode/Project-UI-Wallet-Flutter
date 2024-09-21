@@ -1,6 +1,19 @@
-![Screenshot (229)](https://github.com/user-attachments/assets/b0436d60-73e7-4f85-9a27-f9910e9061ac)
+![UI-Wallet-Flutter](https://github.com/user-attachments/assets/a291f629-f761-4d00-8a6d-fdde2cf12414)
 
-My Project UI Store
+My Project UI Wallet
+
+## How to install?
+
+1 git clone https://github.com/Chasoul-VSCode/Project-UI-Store-Flutter.git
+
+2 cd to name repository
+
+3 flutter pub get
+
+4 flutter device
+
+5 flutter run
+
 
 ## Getting Started
 
